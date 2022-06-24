@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyQuizApp</string>
+    <string name="quizappTVMA">QuizApp</string>
+    <string name="welcomeTVMA">Welcome</string>
+    <string name="please_enter_your_nameTVMA">Please enter your name.</string>
+    <string name="nameHintTVMA">Name</string>
+    <string name="btnStartTVMA">START</string>
+    <string name="what_country_does_this_flag_belong_to">What country does this flag belong to?</string>
+    <string name="submit">SUBMIT</string>
+</resources>

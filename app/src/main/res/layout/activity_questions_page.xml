@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context=".QuestionsPageActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+
+    <TextView
+        android:id="@+id/questionTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/what_country_does_this_flag_belong_to"
+        android:textColor="#BF201F1F"
+        android:textSize="26sp"
+        android:layout_marginBottom="32dp"/>
+
+    <ImageView
+        android:id="@+id/flagIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/flag_of_brazil"
+        android:layout_marginBottom="32dp"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_weight="1"
+            android:indeterminate="false"
+            android:max="10"
+            android:minHeight="50dp"
+            android:progress="1"
+            android:progressBackgroundTint="#736F6F" />
+
+        <TextView
+            android:id="@+id/progressTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#BF201F1F"
+            android:textSize="16sp"
+            tools:text="1/10"
+            android:layout_marginStart="12dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/option1TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="22sp"
+        android:padding="8dp"
+        android:background="@drawable/border_background"
+        android:gravity="center"
+        android:textColor="#BF201F1F"
+        tools:text="Apple"/>
+
+    <TextView
+        android:id="@+id/option2TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="22sp"
+        android:textColor="#BF201F1F"
+        android:padding="8dp"
+        android:background="@drawable/border_background"
+        android:gravity="center"
+        tools:text="Apple"/>
+
+    <TextView
+        android:id="@+id/option3TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="22sp"
+        android:textColor="#BF201F1F"
+        android:padding="8dp"
+        android:background="@drawable/border_background"
+        android:gravity="center"
+        tools:text="Apple"/>
+
+    <TextView
+        android:id="@+id/option4TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="22sp"
+        android:textColor="#BF201F1F"
+        android:padding="8dp"
+        android:background="@drawable/border_background"
+        android:gravity="center"
+        tools:text="Apple"/>
+
+    <Button
+        android:id="@+id/btnSubmitAns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:backgroundTint="#9824CA"
+        android:minHeight="60dp"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
